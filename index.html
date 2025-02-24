@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="icon" type="image/x-icon" href="icon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+  .column {
+    float: left;
+  }
+
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*image styling */
+  img {
+    max-width:100%; height:auto;
+    }
+    
+</style>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="header">
+  <h1 style="color:#fdc757; font-size: 50px"> Robert Bast - Mastering Tinkering</h1>
+</div>
+
+<body>
+<div class="topnav">
+  <a href="index.html" style="color:#2a3039; background-color:#a9dae7">Home</a>
+  <a href="spaces.html">Tinkering Spaces</a>
+  <a href="assignments.html">Design Assignments</a>
+  <a href="reflections.html">Reflections</a>
+</div>
+
+<!--Defining picture column-->
+ <div class="column" style="width: 40%; font-size: 0px;">
+  <!--Top picture in its own row-->
+    <div class="row">
+      <img src="media/img_battleofbands3.jpg">
+    </div>
+  <!--Other pictures in their row, divided in 3 columns-->
+    <div class="row">
+        <div class="column" style="width: 33.3%;">
+          <img src="media/img_broekfiks.jpg">
+          <img src="media/img_barrie.jpg">
+          <img src="media/img_gnome.jpg">
+        </div>
+      
+        <div class="column" style="width: 33.3%;">
+          <img src="media/img_ideation.jpg">
+          <img src="media/img_phonemic.jpg">
+          <img src="media/img_campfire.jpg">
+        </div>
+      
+        <div class="column" style="width: 33.4%;">
+          <img src="media/img_surf.jpeg">
+          <img src="media/img_trui_fiks.jpg">
+        </div>
+    </div>
+ </div>
+
+<!--Defining text column-->
+  <div class="column" style="width: 40%;">
+    <h1>About Me</h1>
+    <p>
+      Heyhey, I'm Robert! Be advised, this is the first time I actually tried to do something with HTML so if anything looks broken or off, that's probably because it is. Anyway, I did my bachelor in Industrial Design Engineering, and am now continuing its master, in the Human Technology Relations track. 
+    </p>
+
+    <p>
+      I think what I like most about IDE is the first part of any project; the part where you thorougly analyse a problem to (try to) find out what actually needs to be adressed and what people really need, and the part where you still have complete freedom to choose how you go about solving that problem. From what I've heard so far, this is where tinkering could be a good tool. Next to studying I like making music, surfing, and making/fixing stuff (see pictures)!
+    </p>
+  </div>
+</body>
+
+</html>
