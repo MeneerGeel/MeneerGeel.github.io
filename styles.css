@@ -1,0 +1,105 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin:20px;
+    
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  margin:20px
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    margin:20px
+}
+
+a {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+/* column definition*/ 
+
+.column {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header container*/
+.header {
+  background-color: #2a3039; /* Light blue */
+  text-align: left;
+  padding: 5px;
+}
+  
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #2a3039;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #a9dae7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #a9dae7;
+  color: #2a3039;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfcfcf;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #056981;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fdc757;
+}
+
+.button {
+  background-color: #fdc757; /* Yellow */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+.button2 {background-color: #e83973;}
+
+.button:hover {
+  background-color: #a9dae7; /* Light blue */
+}
